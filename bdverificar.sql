@@ -70,8 +70,7 @@ CREATE TABLE Contas_A_Receber
 	references Venda(ID_VENDA)
 )
 
--- 4. INSERIR DADOS NAS TABELAS
--- ========================================
+
 
 INSERT INTO Produto (ID_PRODUTO, DESCRICAO, UN, PRECO)
 VALUES
